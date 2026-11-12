@@ -1,0 +1,13 @@
+{
+  "name": "soil-ai-app",
+  "version": "1.0.0",
+  "description": "SoilSense AI Mobile & Web Application",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "start:backend": "PORT=5001 node backend/server.js",
+    "start:frontend": "npm --prefix frontend run dev",
+    "dev": "./start-mobile.sh",
+    "mobile": "./start-mobile.sh",
+    "build": "npm --prefix frontend run build"
+  }
+}
